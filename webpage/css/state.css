@@ -1,0 +1,36 @@
+*{
+  list-style: none;
+}
+
+body, html{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-bar__list{
+  display: block;
+}
+
+.nav-bar__list__item{
+  display: inline-block;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+}
+
+@media only screen and (max-width: 767px) {
+.nav-bar__list__item{
+  display: block;
+  text-align: center;
+}
+
+.main__title{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+}
