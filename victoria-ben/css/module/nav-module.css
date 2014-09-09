@@ -1,0 +1,10 @@
+.header-nav-ul-li{
+  display: inline-block;
+  font-size: 1em;
+  font-family: serif;
+}
+
+.header-nav-ul-li:hover{
+  color:#999;
+}
+
