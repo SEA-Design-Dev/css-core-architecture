@@ -1,6 +1,5 @@
 .thumb{
-  border-radius: 50%;
+  border-radius: 15%;
   display: block;
   max-width: 8%;
-  float: left;
 }
