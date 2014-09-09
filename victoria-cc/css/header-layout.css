@@ -1,4 +1,12 @@
-header{
-
-
+.header{
+  text-align: center;
+  font-family: Calibri;
 }
+
+h1{
+
+  color: blue;
+}
+
+
+
