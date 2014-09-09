@@ -22,4 +22,7 @@
 h2{
   text-align: center;
 }
+.main__button{
+  width: 100%;
+}
 }
