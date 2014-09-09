@@ -1,29 +1,19 @@
-*{
-  list-style: none;
-}
-
-body, html{
-  width: 100%;
-  margin: 0 auto;
-}
-
-.nav-bar__list{
-  display: block;
-}
-
-.nav-bar__list__item{
-  display: inline-block;
-}
-
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
 
 }
 
 @media only screen and (max-width: 767px) {
+
+.nav-bar__list__item:nth-child(1){
+  border: 0px;
+}
+
 .nav-bar__list__item{
   display: block;
   text-align: center;
+  border: 0px;
+  font-size: 2em;
 }
 
 .main__title{
