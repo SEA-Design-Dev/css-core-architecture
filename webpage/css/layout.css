@@ -1,0 +1,21 @@
+body, html{
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  border-radius: 5px;
+  margin-top: 15px;
+  background: linear-gradient(grey, #404040);
+}
+
+section ul{
+  display: block;
+  padding: 0px 0px 0px 0px;
+}
+
+nav{
+  text-align: center;
+  width: 100%;
+}
+

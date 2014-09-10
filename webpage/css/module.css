@@ -1,0 +1,23 @@
+.nav-bar__list__item{
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.5em;
+  padding: 0px 20px 0px 20px;
+  border-right: 1px solid grey;
+  color: white;
+}
+
+.nav-bar__list__item:nth-child(1){
+  border-left: 1px solid grey;
+}
+
+.main__button{
+  border-style: none;
+  border-radius: 5px;
+  width: 8em;
+  height: 3em;
+  background: linear-gradient(#08c,#3366CC);
+  color: white;
+  font-size: 1em;
+}
