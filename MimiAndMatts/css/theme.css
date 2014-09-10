@@ -1,0 +1,25 @@
+/* Fonts */
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+h1, h2, p {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Color */
+a:link {
+  color: #999900;
+}
+
+h1, h2 {
+  color: #B80000;
+}
+
+p {
+  color: #66CC00;
+}
+
+
+

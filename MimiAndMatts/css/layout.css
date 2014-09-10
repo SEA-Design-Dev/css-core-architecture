@@ -1,0 +1,36 @@
+/* NAVIGATION */
+.l-nav {
+  text-transform: uppercase;
+  padding-top: 1em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.l-navigation-list--link {
+  padding: 0.2em;
+  text-decoration: none;
+}
+
+.l-navigation-list--item {
+  display: inline;
+  padding: 1em;
+  font-size: 1em;
+}
+
+/* FOOTER */
+.l-footer {
+  font-size: 1em;
+  border: 3em;
+  padding-top: 0.5em;
+}
+
+.l-footer-image {
+  float:right;
+  padding: 1em;
+  width: 5em;
+}
+
+.l-footer-location {
+  display: inline-block;
+  padding-left: 1em;
+}
