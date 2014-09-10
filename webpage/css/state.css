@@ -1,24 +1,24 @@
 @media only screen and (max-width: 767px) {
 
-.nav-bar__list__item:nth-child(1){
-  border: 0px;
-}
+  .nav-bar__list__item:nth-child(1){
+    border: 0px;
+  }
 
-.nav-bar__list__item{
-  display: block;
-  text-align: center;
-  border: 0px;
-  font-size: 2em;
-}
+  .nav-bar__list__item{
+    display: block;
+    text-align: center;
+    border: 0px;
+    font-size: 2em;
+  }
 
-.main__title{
-  text-align: center;
-}
+  .main__title{
+    text-align: center;
+  }
 
-h2{
-  text-align: center;
-}
-.main__button{
-  width: 100%;
-}
+  h2{
+    text-align: center;
+  }
+  .main__button{
+    width: 100%;
+  }
 }
