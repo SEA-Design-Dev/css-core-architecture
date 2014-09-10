@@ -47,7 +47,6 @@ a{
   font-weight:bold;
   text-decoration:none;
 }
-
 h1{
   font-size:3em;
 }
@@ -67,31 +66,26 @@ p{
 /* SMACSS - LAYOUT */
 header{
   margin: 0 auto;
-
 }
 .l-header {
   /*Styling for unique h1 and p*/
 }
-
 .l-nav{
   /*Styling for nav ul*/
   font-size:2em;
   margin: 0 auto;
   width: 500px;
-
 }
 .nav {
   float:left;
   padding:0 37px;
 }
 
-
 /* MODULES */
 section{
   margin:50px auto;
   width:960px;
 }
-
 article{
   /*Styling that applies to ALL articles regardless of size*/
   float:left;
@@ -99,19 +93,15 @@ article{
   height:340px;
   border:2px solid grey;
 }
-
 .article__main {
   margin-left:9.5%;
   margin-bottom: 2em;
 }
-
-
 .article__sub{
   width:220px;
   height:220px;
   margin: 5%;
 }
-
 .has-accent{
   border: 1px dashed pink;
 }
