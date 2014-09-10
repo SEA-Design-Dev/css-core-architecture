@@ -3,21 +3,19 @@ body, html{
   margin: 0 auto;
 }
 
+header{
+  border-radius: 5px;
+  margin-top: 15px;
+  background: linear-gradient(grey, #404040);
+}
+
 section ul{
   display: block;
   padding: 0px 0px 0px 0px;
 }
 
-.nav-bar{
+nav{
   text-align: center;
   width: 100%;
-}
-
-.nav-bar__list{
-  display: block;
-}
-
-.nav-bar__list__item{
-  display: inline-block;
 }
 

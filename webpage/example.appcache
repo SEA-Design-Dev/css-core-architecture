@@ -3,6 +3,7 @@ CACHE MANIFEST
 CACHE:
 contact.html
 css/base.css
+css/skeleton.css
 css/layout.css
 css/module.css
 css/state.css
