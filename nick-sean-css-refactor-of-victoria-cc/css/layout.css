@@ -1,0 +1,11 @@
+.header {
+  text-align: center;
+  font-family: serif;
+  margin-bottom: 50px;
+  padding: 8px 0 10px 0;
+  background-color: #fff;
+}
+
+.site-footer {
+  margin: 100px;
+}
