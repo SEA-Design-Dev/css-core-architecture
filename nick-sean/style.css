@@ -16,7 +16,7 @@ p {
   font-size: 1em;
 }
 
-.byLine {
+.by-line {
   font-size: 1.3em;
   color: darkgrey;
   margin-left: 10px;
@@ -26,7 +26,7 @@ p {
   display:none;
 }
 
-.inlineNavBar {
+.inline-Navbar {
   list-style: none;
 }
 
@@ -59,12 +59,12 @@ footer {
 
 /* Module */
 
-.mainNav {
+.main-Nav {
   border-top: 4px solid black;
 }
 
 
-.inlineNavBar li {
+.inline-Navbar li {
   display: inline-block;
   font-size: 2em;
   margin-right: 2em;
@@ -76,38 +76,38 @@ footer {
   border: 1px solid black;
 }
 
-.feature_title {
+.feature__title {
   font-weight: bold;
   font-size: 2em;
   margin: 10px 6px 8px 12px;
 }
 
-.feature_teaser {
+.feature__teaser {
   margin: 0 6px 8px 12px;
 }
 
-.otherArticle {
+.other-Article {
   width: 100%;
   border-bottom: 1px solid gray;
 }
 
-.otherArticle h1 {
+.other-Article h1 {
   text-transform: uppercase;
   color: red;
   margin-left: 10px;
 }
 
-.otherArticle h2 {
+.other-Article h2 {
   font-size: 1.6em;
   margin-left: 10px;
 }
 
-.footerNav {
+.footer-Nav {
   text-align: center;
   padding-top: 10px;
 }
 
-.footerNav li {
+.footer-Nav li {
   color: #FFF;
   font-size: 1em;
 }
