@@ -6,16 +6,15 @@
 
 footer,
 header,
-main, 
-nav,
- {
-    display: block;
+main,
+nav, {
+  display: block;
 }
 
 /*Address styling not present in IE 8/9.*/
 
 [hidden] {
-    display: none;
+  display: none;
 }
 
 /* ==========================================================================
@@ -24,14 +23,14 @@ nav,
 
 
 html {
-    font-family: sans-serif; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+  font-family: sans-serif; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
 }
 /* Remove default margin.*/
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -40,20 +39,20 @@ body {
 /* Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome.*/
 
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 /*Address inconsistent and variable font size in all browsers.*/
 
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
 }
 
 

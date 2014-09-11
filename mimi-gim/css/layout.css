@@ -17,6 +17,29 @@
   font-size: 1em;
 }
 
+.l-navigation-list--link:hover {
+  background: red;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* HEADER */
+.page-heading {
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+
+.main-wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 /* FOOTER */
 .l-footer {
   font-size: 1em;
