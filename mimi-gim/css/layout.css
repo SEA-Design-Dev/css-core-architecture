@@ -25,7 +25,7 @@
 }
 
 /* HEADER */
-.page-heading {
+.l-page-heading {
   text-align: center;
   font-size: 1.4em;
   text-transform: uppercase;
@@ -33,7 +33,7 @@
 
 /* MAIN */
 
-.main-wrapper {
+.l-main-wrapper {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
