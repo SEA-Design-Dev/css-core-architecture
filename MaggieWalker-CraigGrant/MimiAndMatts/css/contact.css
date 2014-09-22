@@ -1,0 +1,27 @@
+/* HEADER */
+.page-heading {
+  text-align: center;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+.main-wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* MAIN FORM */
+.contact-form--action {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN SECTION */
+.github-image {
+  width: 10%;
+  border-radius: 50%;
+}

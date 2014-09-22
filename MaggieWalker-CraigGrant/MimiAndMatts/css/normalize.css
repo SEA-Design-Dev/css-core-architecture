@@ -1,0 +1,66 @@
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/* Correct `block` display not defined in IE 8/9.
+ */
+
+footer,
+header,
+main,
+nav,
+ {
+    display: block;
+}
+
+/*Address styling not present in IE 8/9.*/
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+/* Remove default margin.*/
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/* Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome.*/
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/*Address inconsistent and variable font size in all browsers.*/
+
+small {
+    font-size: 80%;
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+
+/*==========================================================================
+   Lists
+==========================================================================*/
+
+ul {
+  list-style: none;
+}
