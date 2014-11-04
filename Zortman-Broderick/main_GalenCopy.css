@@ -2,7 +2,7 @@
 
 /*Respnsive Grid System*/
 /*  SECTIONS  */
-.section {
+.section-wrapper {
   clear: both;
   padding: 0px;
   margin: 0px;
@@ -120,14 +120,15 @@ body {
 /*Specific BEM-named widgets*/
 
 .main-nav{
-  padding: 15px;
+  padding: 5px;
   text-align: center;
 }
 .main-nav__item{
   display: inline;
-  margin: 0px 5px;
+  margin: 5px;
   text-transform: uppercase;
-  padding: 6px 18px 5px 18px;
+  padding: 10px;
+  /*padding: 6px 18px 5px 18px;*/
 }
 .main-nav__item a{
   text-decoration: none;
