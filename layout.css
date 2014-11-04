@@ -1,0 +1,134 @@
+body {
+	background-color: black;
+}
+
+header {
+	width: 920px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+header img {
+	width: 400px;
+}
+
+nav li {
+	display: inline;
+	padding-left: 15px;
+}
+
+nav ul:first-child {
+	padding-left: 0;
+}
+
+nav {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 0 auto;
+	width: 920px;
+	background-color: white;
+	text-align: center;
+}
+
+.main-image {
+	width: 250px;
+	height: 375px;
+	padding: 15px 15px 15px 15px;
+	display: left;
+	display: inline;
+}
+
+.main-panel {
+	background-color: #b6b6b6;
+	width: 775px;
+	margin: 0 auto;
+}
+
+.more-info {
+	display: inline-block;
+	width:300px;
+	vertical-align: top;
+}
+
+.more-info p {
+	display: inline;
+}
+
+img {
+	width: 150px;
+	height: 250px;
+}
+
+.widget {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.widget .panel {
+	margin: 0 auto;
+}
+
+.panel {
+	display: inline-block;
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px auto;
+}
+
+.panel button {
+	display: block;
+	margin: 5px auto 5px auto;
+
+}
+
+article {
+	position: relative;
+	width: 100%;
+	background-color: #b6b6b6;
+}
+
+.btn {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	margin: 5px auto 5px auto;
+	border: 1px solid gray;
+	background-color: blue;
+	color: white;
+}
+
+.media {
+	margin: 0 auto;
+}
+
+.btn--link {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid gray;
+	margin: 5px auto 5px auto;
+	background-color: blue;
+	color: white;
+}
+
+main {
+	width: 920px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+h1 {
+	padding: 10px 0 0 15px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 16px
+}
