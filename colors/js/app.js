@@ -13,7 +13,7 @@ var color = function(){
     var color = tinycolor(origin);
     
     harmonies = {
-      complement: [color.complement()],
+      complement: [tinycolor(origin), color.complement()],
       splitcomplement: color.splitcomplement(),
       mono: color.monochromatic(),
       analogous: color.analogous(),
@@ -38,12 +38,57 @@ var color = function(){
 }();
 
 $(document).ready(function(){
-  color.origin('#FF0000');
   
-  var colors = color.collect();
-  for(var c in colors){
-    if(colors.hasOwnProperty(c)){
+  var origin = $('#origin');
+  
+  function populate(){
+    color.origin(origin.val());
+    $('body').animate({
+      backgroundColor: tinycolor(origin.val()).darken(35).toString()
+    });
+    var harmonies = color.collect();
+    var outputs = $('.container .output');
+    var h = 0;
+    // Loop through each harmony and apply colors
+    for(var harmony in harmonies){
+      if(harmonies.hasOwnProperty(harmony)){
+        // Set origin color
+        var elements = [];
 
+        // Loop through each color
+        for (var i=0; i < harmonies[harmony].length; i++){
+            var _color = harmonies[harmony][i]
+            var swatches = $(outputs[h]).find('.swatch');
+            outputs.eq(h).find('h1').text(harmony);
+            if(swatches.eq(i).length){
+              swatches.eq(i).animate({
+                backgroundColor: _color
+              }, 500).html("<span>"+_color+"</span>");
+            } else {
+              console.log("Create new!");
+              var swatch = $('<div/>').addClass('swatch').css({
+                background: _color
+              }).html("<span>"+_color+"</span>");
+              swatch.appendTo(outputs[h]);
+            }
+        };
+        h++;
+      }
     }
   }
+  
+  $(document).keyup(function(event){
+    switch(event.which){
+      case 13:
+        populate();
+        break;
+    }
+  });
+  
+  $('.maincontent').on('click', '.swatch', function(){
+    origin.val($(this).find('span').text());
+    populate();
+  })
+  
+
 });
