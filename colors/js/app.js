@@ -111,8 +111,14 @@ $(document).ready(function(){
   $('.maincontent').on('click', '.swatch', function(){
     origin.val($(this).find('span').text());
     populate();
-  })
+  });
   
-
+  $('#bright').change(function(){
+    var orig = origin.val()
+    var color = tinycolor(orig)
+    origin.val(color.brighten($(this).val()));
+    populate();
+    origin.val(orig);
+  });
   
 }); // End document ready

@@ -129,6 +129,7 @@ span {
 .inputtext {
   margin-left: 39%;
   display: inline;
+  color:white;
 }
 .maincontent input[type=text] {
   width: 350px;
@@ -163,6 +164,7 @@ span {
   width:70px;
   display:inline-block;
   cursor:pointer;
+  z-index:1;
 }
 .swatch span {
   font-size: 11px;
