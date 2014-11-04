@@ -1,13 +1,14 @@
 body{
   font-size: 1em;
-
 }
+
+/* nav */
 
 .main-nav {
   width:100%;
-  background-color: black;
   height: 3em;
-  padding:5%;
+  padding:5% 0;
+  text-align: center;
 }
 
 .main-nav__item{
@@ -16,31 +17,45 @@ body{
 
 .main-nav__link {
   color:white;
-  margin-right:3em;
+  margin:0 1em;
   font-size: 1.5em;
   text-decoration: none;
 }
+
+/* main intro */
 
 
 .main{
   background-color:MediumOrchid;
   height:15em;
-  padding:5%;
+  padding:5% 0;
+  text-align:center;
 
 }
 
 .main__header{
   color:white;
   font-size: 5em;
+  width:100%;
 }
 
 .main__intro{
   color:white;
   font-size: 1em;
   line-height: 1.5em;
+  width:600px;
+  margin:auto;
 }
 
 /* department section */
+
+
+.dept{
+margin:0 30px;
+display: block;
+width:100%;
+text-align:center;
+}
 
 .program__header{
   text-align: center;
@@ -48,15 +63,6 @@ body{
   text-transform: uppercase;
   font-size: 1.25em;
   color:gray;
-}
-
-
-.dept{
- margin-right:5%;
- margin-left:5%;
-  display: block;
-  width:100%;
-  background-color: red;
 }
 
 .deptOne{
@@ -91,9 +97,6 @@ body{
   height:250px;
   width:100%;
   display: inline-block;
- /* margin-right:10px;*/
-  }
-
 }
 
 .deptTwo__header{
@@ -117,9 +120,8 @@ body{
   height:250px;
   width:100%;
   display: inline-block;
-  }
-
 }
+
 
 .deptThree__header{
   color:white;
@@ -164,17 +166,18 @@ body{
 
 .sign-up__field{
   margin-top:20px;
-  width:200px;
-  height:20px;
+  width:275px;
+  height:35px;
+  padding:2px;
 }
 
 /* feature section */
 
 .feature{
-  margin:2% 5%;
   text-align: center;
   height:600px;
   display: block;
+  width:100%;
 }
 
 .feature__title{
@@ -189,7 +192,6 @@ body{
   margin-top:3px;
   color:gray;
   line-height: 1.5em;
-
 }
 
 .feature__info{
@@ -197,31 +199,27 @@ body{
 }
 
 .feature__one{
-  width:100%;
   height:450px;
   display: inline-block;
-
+  padding:1%;
 }
 
 .feature__two{
-  width:100%;
   height:450px;
- display: inline-block;
+  display: inline-block;
+ padding:1%;
 }
 
 .feature__three{
-  width:100%;
   height:450px;
   display: inline-block;
-
+ padding:1%;
 }
 
-
 .feature__four{
-  width:100%;
   height:450px;
- /* float:left;*/
   display: inline-block;
+ padding:1%;
 }
 
 
@@ -237,7 +235,7 @@ body{
 }
 
 .col_1_of_3 {
-  width: 26%;
+  width: 25.25%;
 }
 
 .col_4_of_4 {
@@ -245,7 +243,7 @@ body{
 }
 
 .col_1_of_4 {
-  width: 23.8%;
+  width: 21%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
