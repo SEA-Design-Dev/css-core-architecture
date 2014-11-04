@@ -52,7 +52,11 @@ $(document).ready(function(){
   })
   
   // Populate other colors
-  function populate(){
+  function populate(options){
+    
+    // Set options
+    options = options || {speed:500};
+    
     color.origin(origin.val());
  
     var harmonies = color.collect();
@@ -70,7 +74,7 @@ $(document).ready(function(){
             if(swatches.eq(i).length){
               swatches.eq(i).animate({
                 backgroundColor: _color
-              }, 500).html("<span>"+_color+"</span>");
+              }, options.speed).html("<span>"+_color+"</span>");
             } else {
               console.log("Create new!");
               var swatch = $('<div/>').addClass('swatch').css({
@@ -87,6 +91,18 @@ $(document).ready(function(){
   $(document).keyup(function(event){
     switch(event.which){
       case 13:
+      if(origin.val() == 'dance'){
+        setInterval(function(){
+          var r = Math.round(255 * Math.random());
+          var g = Math.round(255 * Math.random());
+          var b = Math.round(255 * Math.random());
+          
+          origin.val("rgb("+r+","+g+","+b+")");
+          populate({
+            speed: 0
+          });
+        },40);
+      }
         populate();
         break;
     }
@@ -96,4 +112,7 @@ $(document).ready(function(){
     origin.val($(this).find('span').text());
     populate();
   })
+  
+
+  
 }); // End document ready
