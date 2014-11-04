@@ -1,0 +1,271 @@
+body{
+  font-size: 1em;
+
+}
+
+.main-nav {
+  width:100%;
+  background-color: black;
+  height: 3em;
+  padding:5%;
+}
+
+.main-nav__item{
+  display: inline-block;
+}
+
+.main-nav__link {
+  color:white;
+  margin-right:3em;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+.main{
+  background-color:MediumOrchid;
+  height:15em;
+  padding:5%;
+
+}
+
+.main__header{
+  color:white;
+  font-size: 5em;
+}
+
+.main__intro{
+  color:white;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* department section */
+
+.program__header{
+  text-align: center;
+  margin:3% 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  color:gray;
+}
+
+
+.dept{
+ margin-right:5%;
+ margin-left:5%;
+  display: block;
+  width:100%;
+  background-color: red;
+}
+
+.deptOne{
+  padding:3%;
+  height:250px;
+  width:100%;
+  display: inline-block;
+  /*margin-right:10px;*/
+  }
+
+}
+
+.deptOne__header{
+  color:white;
+  font-size:1.1em;
+}
+
+.deptOne__date{
+  color:white;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.deptOne__info{
+  color:white;
+  line-height: 1em;
+}
+
+
+.deptTwo{
+  padding:3%;
+  height:250px;
+  width:100%;
+  display: inline-block;
+ /* margin-right:10px;*/
+  }
+
+}
+
+.deptTwo__header{
+  color:gray;
+  font-size:1.1em;
+}
+
+.deptTwo__date{
+  color:gray;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.deptTwo__info{
+  color:gray;
+  line-height: 1em;
+}
+
+.deptThree{
+  padding:3%;
+  height:250px;
+  width:100%;
+  display: inline-block;
+  }
+
+}
+
+.deptThree__header{
+  color:white;
+  font-size:1.1em;
+}
+
+.deptThree__date{
+  color:white;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.deptThree__info{
+  color:white;
+  line-height: 1em;
+}
+
+
+
+.blue{
+  background-color: SkyBlue;
+}
+
+.yellow{
+  background-color: LemonChiffon;
+}
+
+.green{
+  background-color: MediumSeaGreen;
+}
+
+/* form section */
+
+.sign-up{
+  text-align: center;
+  display: block;
+  font-size: 1.25em;
+  cursor:pointer;
+  height:60px;
+  margin:10% 0;
+}
+
+.sign-up__field{
+  margin-top:20px;
+  width:200px;
+  height:20px;
+}
+
+/* feature section */
+
+.feature{
+  margin:2% 5%;
+  text-align: center;
+  height:600px;
+  display: block;
+}
+
+.feature__title{
+  text-align: center;
+  margin:3% 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  width:100%;
+}
+
+.feature__header{
+  margin-top:3px;
+  color:gray;
+  line-height: 1.5em;
+
+}
+
+.feature__info{
+  color:gray;
+}
+
+.feature__one{
+  width:100%;
+  height:450px;
+  display: inline-block;
+
+}
+
+.feature__two{
+  width:100%;
+  height:450px;
+ display: inline-block;
+}
+
+.feature__three{
+  width:100%;
+  height:450px;
+  display: inline-block;
+
+}
+
+
+.feature__four{
+  width:100%;
+  height:450px;
+ /* float:left;*/
+  display: inline-block;
+}
+
+
+
+
+
+
+
+/*  GRIDS   ============================================================================= */
+
+.col_3_of_3 {
+  width: 100%;
+}
+
+.col_1_of_3 {
+  width: 26%;
+}
+
+.col_4_of_4 {
+  width: 100%;
+}
+
+.col_1_of_4 {
+  width: 23.8%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+.col_3_of_3 {
+  width: 100%;
+}
+
+.col_1_of_3 {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+.col_4_of_4 {
+  width: 100%;
+  }
+.col_1_of_4 {
+  width: 100%;
+  }
+}

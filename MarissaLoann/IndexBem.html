@@ -3,31 +3,31 @@
 <head>
 <title>Marissa and Loann</title>
 <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="bem.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/bem.css">
 </head>
 
 <body>
 
 <!--logo-->
 
-<header class=" ">
-<nav class="main-nav">
+<header>
+<nav class="main-nav green">
 <ul>
-<li class="main-nav__logo">
-  <a href="#">Kenyon Institute</a></li>
+<li class="main-nav__item">
+  <a class="main-nav__link" href= "">Kenyon Institute</a></li>
 
-<li class="main-nav__program">
-  <a href="#">Programs</a></li>
+<li class="main-nav__item">
+  <a class="main-nav__link" href="#">Programs</a></li>
 
-<li class="main-nav__institute">
-  <a href="#">The Institute</a></li>
+<li class="main-nav__item">
+  <a class="main-nav__link" href="#">The Institute</a></li>
 
-<li class="main-nav__campus">
-  <a href="#">The Campus</a></li>
+<li class="main-nav__item">
+  <a class="main-nav__link" href="#">The Campus</a></li>
 
-<li class="main-nav__request-info">
-  <a href="#">Request Info</a></li>
+<li class="main-nav__item">
+  <a class="main-nav__link" href="#">Request Info</a></li>
 </ul>
 </nav>
 </header>
@@ -44,59 +44,65 @@
 
 <article class="dept col_3_of_3">
 
-<h3 class="program__header">Programs</h3>
+<h1 class="program__header">Programs</h1>
 
-<section class="deptOne col_1_of_3">
-<h1 class="dept__header">Sample Header</h1>
-<h3 class="dept__date"><time datetime="2014-11-03">November 3, 2014</time></h3>
+<section class="deptOne blue col_1_of_3">
+<h1 class="deptOne__header">Sample Header</h1>
+<h1 class="deptOne__date"><time datetime="2014-11-03">November 3, 2014</time></h1>
 
-<p class="dept__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
+<p class="deptOne__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
 </section>
 
-<section class="deptTwo col_1_of_3">
-<h1 class="dept__header">Sample Header</h1>
-<h3 class="dept__date"><time datetime="2014-11-03">November 3, 2014</time></h3>
+<section class="deptTwo yellow col_1_of_3">
+<h1 class="deptTwo__header">Sample Header</h1>
+<h1 class="deptTwo__date"><time datetime="2014-11-03">November 3, 2014</time></h1>
 
-<p class="dept__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
+<p class="deptTwo__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
 </section>
 
-<section class="deptThree col_1_of_3">
-<h1 class="dept__header">Sample Header</h1>
-<h3 class="dept__date"><time datetime="2014-11-03">November 3, 2014</time></h3>
+<section class="deptThree green col_1_of_3">
+<h1 class="deptThree__header">Sample Header</h1>
+<h1 class="deptThree__date"><time datetime="2014-11-03">November 3, 2014</time></h1>
 
-<p class="dept__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
+<p class="deptThree__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in mi urna. Phasellus rhoncus tempor velit, vitae finibus felis. Vestibulum tempor justo ante, a tincidunt purus dignissim eu.</p>
 </section>
 
 </article>
 
 <form class="sign-up">
-<h3>Sign up to receive more information</h3>
-<label for="sign-up__email">Email</label>
+<h1 class "sign-up__header">Sign up to receive more information</h1>
+<label for="sign-up__email"></label>
 <input class="sign-up__field" id="email" type="email" placeholder="Email">
 <button type="submit" class="sign-up__field--btn">Sign Up</button>
-<form>
+</form>
 
 <!--professor profile-->
 
-<section class="faculty col_4_of_4">
-<h3>Faculty and Speakers</h3>
+<section class="feature col_4_of_4">
+<h1 class="feature__title">feature and Speakers</h1>
 
-<figure class="faculty__img col_1_of_4">
-<img src=""/>
-<h4 class="faculty__header">Professor Name</h4>
-<p class="faculty__info">Professor Title and Department</p>
+<figure class="feature__one col_1_of_4">
+<img src="img/profile.jpg"/>
+<h1 class="feature__header">Professor Name</h1>
+<p class="feature__info">Professor Title and Department</p>
 </figure>
 
-<figure class="faculty__img col_1_of_4">
-<img src=""/>
-<h4 class="faculty__header">Professor Name</h4>
-<p class="faculty__info">Professor Title and Department</p>
+<figure class="feature__two col_1_of_4">
+<img src="img/profile.jpg"/>
+<h1 class="feature__header">Professor Name</h1>
+<p class="feature__info">Professor Title and Department</p>
 </figure>
 
-<figure class="faculty__img col_1_of_4">
-<img src=""/>
-<h4 class="faculty__header">Professor Name</h4>
-<p class="faculty__info">Professor Title and Department</p>
+<figure class="feature__three col_1_of_4">
+<img src="img/profile.jpg"/>
+<h1 class="feature__header">Professor Name</h1>
+<p class="feature__info">Professor Title and Department</p>
+</figure>
+
+<figure class="feature__four col_1_of_4">
+<img src="img/profile.jpg"/>
+<h1 class="feature__header">Professor Name</h1>
+<p class="feature__info">Professor Title and Department</p>
 </figure>
 
 <script src=" "></script>
