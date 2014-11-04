@@ -14,7 +14,7 @@ box-sizing {
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
  body {
-  background-color:black;
+  background-color:#111;
   font-size: 100%;
   margin: 1em auto 0;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -39,7 +39,7 @@ p {
 }
 .stack {
   text-transform: uppercase;
-  font-size: 9.2em;
+  font-size: 7.5em;
   line-height: 0.7em;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -157,8 +157,8 @@ span {
   padding:1px;
 }
 .swatch {
-  height:100px;
-  width:100px;
+  height:70px;
+  width:70px;
   display:inline-block;
   cursor:pointer;
 }

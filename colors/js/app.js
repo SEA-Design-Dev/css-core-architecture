@@ -1,3 +1,4 @@
+/* Palette maker */
 var color = function(){
   // Starting point color
   var origin, harmonies;
@@ -12,14 +13,17 @@ var color = function(){
   function publicCollect(){
     var color = tinycolor(origin);
     
+    // A collection of harmonies
     harmonies = {
       complement: [tinycolor(origin), color.complement()],
       splitcomplement: color.splitcomplement(),
       mono: color.monochromatic(),
       analogous: color.analogous(),
-      triad: color.triad()
+      triad: color.triad(),
+      tetrad: color.tetrad()
     };
     
+    // Loop through each harmony and map it to an array
     for(var harmony in harmonies){
       if(harmonies.hasOwnProperty(harmony)){
         harmonies[harmony] = harmonies[harmony].map(function(h){
@@ -39,22 +43,25 @@ var color = function(){
 
 $(document).ready(function(){
   
-  var origin = $('#origin');
+  // Get the starting color
+  var origin = $('#origin').focus();
   
+  // Auto-highlight
+  origin.click(function(){
+    $(this).select();
+  })
+  
+  // Populate other colors
   function populate(){
     color.origin(origin.val());
-    $('body').animate({
-      backgroundColor: tinycolor(origin.val()).darken(35).toString()
-    });
+ 
     var harmonies = color.collect();
     var outputs = $('.container .output');
     var h = 0;
+    
     // Loop through each harmony and apply colors
     for(var harmony in harmonies){
       if(harmonies.hasOwnProperty(harmony)){
-        // Set origin color
-        var elements = [];
-
         // Loop through each color
         for (var i=0; i < harmonies[harmony].length; i++){
             var _color = harmonies[harmony][i]
@@ -89,6 +96,4 @@ $(document).ready(function(){
     origin.val($(this).find('span').text());
     populate();
   })
-  
-
-});
+}); // End document ready
