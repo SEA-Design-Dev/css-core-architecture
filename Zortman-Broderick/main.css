@@ -1,11 +1,5 @@
-
-
-/*Respnsive Grid System*/
-
-
-
 /*  SECTIONS  */
-.section {
+.section-wrapper {
   clear: both;
   padding: 0px;
   margin: 0px;
@@ -34,29 +28,37 @@
 }
 
 
-/*  GRID OF SIX  */
-.span_6_of_6 {
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
   width: 100%;
 }
 
-.span_5_of_6 {
-    width: 82.83%;
+.span_7_of_8 {
+    width: 87.12%;
 }
 
-.span_4_of_6 {
-    width: 65.66%;
+.span_6_of_8 {
+    width: 74.25%;
 }
 
-.span_3_of_6 {
+.span_5_of_8 {
+    width: 61.37%;
+}
+
+.span_4_of_8 {
     width: 48.5%;
 }
 
-.span_2_of_6 {
-    width: 31.33%;
+.span_3_of_8 {
+    width: 35.62%;
 }
 
-.span_1_of_6 {
-    width: 14.16%;
+.span_2_of_8 {
+    width: 22.75%;
+}
+
+.span_1_of_8 {
+    width: 9.875%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -68,22 +70,28 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .span_6_of_6 {
+  .span_8_of_8 {
     width: 100%;
   }
-  .span_5_of_6 {
+  .span_7_of_8 {
     width: 100%;
   }
-  .span_4_of_6 {
+  .span_6_of_8 {
     width: 100%;
   }
-  .span_3_of_6 {
+  .span_5_of_8 {
     width: 100%;
   }
-  .span_2_of_6 {
+  .span_4_of_8 {
     width: 100%;
   }
-  .span_1_of_6 {
+  .span_3_of_8 {
+    width: 100%;
+  }
+  .span_2_of_8 {
+    width: 100%;
+  }
+  .span_1_of_8 {
     width: 100%;
   }
 }
@@ -93,15 +101,125 @@
 /*Our CSS Begins Here*/
 
 
+/******   BASE STYLES  ********/
 
-.span_5_of_6 {
-  background-color: lightblue;
+a, a:visited {
+  color: #000000;
+  text-decoration: underline;
+}
+a:hover, a.on {
+  color: purple;
+  background-color: lightgray;
 }
 
-.span_2_of_6 {
-  background-color: lightgreen;
+body {
+  color: #333;
+  font: 14px/21px 'Open Sans', 'Roboto', Helvetica, sans-serif,;;
 }
 
-.span_3_of_6 {
-  background-color: lightyellow;
+
+/******   HEADER  ********/
+
+
+.header-logo {
+  margin-left: 4%;
 }
+
+.search-widget__header-position {
+  display: inline-block;
+  float: right;
+  margin: 2% 5% 0 0;
+}
+
+.search-widget__input {
+  border: none;
+  border-bottom: 1px solid #999
+}
+
+.search-widget__header__button {
+  width: 20px;
+  background-color: transparent;
+  background-image: url('search_btn@2x.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+
+/******   NAVIGATION   ********/
+
+
+.main-nav__pos{
+  margin-left: 0;
+  background-color: hsla(170, 50%, 50%, 1);
+}
+
+.main-nav__pos__wrap {
+  margin-left: 8%;
+}
+
+.main-nav__item {
+  display: inline-block;
+  background-color: #eee;
+  margin: 1%;
+  text-transform: uppercase;
+  padding: 1% 5%;
+  text-decoration: none;
+}
+
+.main-nav__item:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+/******   PAGE LAYOUT  ********/
+
+.main-wrapper {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+
+
+/******   BLOG POSTS  ********/
+
+
+.article-roll {
+  background-color: lightgrey;
+}
+
+.article-roll__blog-post {
+  padding: 1% 3%;
+  margin: 2%;
+  background-color: white;
+}
+
+.article-roll__blog-post__right-img-text {
+  display: inline-block;
+  width: 65%;
+
+}
+
+.article-roll__blog-post__right-img-img {
+  margin: 15% 0;
+  float: right;
+  width: 35%;
+}
+
+
+/******   ASIDES  ********/
+
+.module-roll {
+}
+
+.module-roll__item {
+  background-color: hsla(170, 50%, 95%, 1);
+  padding: 4% 8%;
+  margin-bottom: 4%;
+}
+
+
+
+

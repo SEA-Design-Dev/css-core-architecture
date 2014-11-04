@@ -1,40 +1,112 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Core CSS Test</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="normalize.min.css">
     <link rel="stylesheet" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Roboto|Helvetica' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header>
-      <img src="">
-      <section></section>
-      <nav class="col span_5_of_6">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="col span_3_of_6">
-      <article>
-        <h3></h3>
-        <p></p>
-        <img src="">
-      </article>
-    </main>
-    <aside class="col span_2_of_6">
-      <section>
-        <h5></h5>
-        <p></p>
-      </section>
-    </aside>
+      <section class="section-wrapper group">
+        <div class="col span_8_of_8">
+          <img class="header-logo" src="placeholder_logo.png">
+            <div class="search-widget__header-position">
+            <input class="search-widget__input" type="search">
+            <input class="search-widget__header__button" type="button">
+          </div>
+        </div>
 
+
+        <nav class="main-nav__pos col span_8_of_8">
+          <div class="main-nav__pos__wrap">
+            <a class="main-nav__item" href="#">Blog</a>
+            <a class="main-nav__item"href="#">Video</a>
+            <a class="main-nav__item"href="#">Links</a>
+            <a class="main-nav__item"href="#">About</a>
+            <a class="main-nav__item"href="#">Contact</a>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <div class="main-wrapper section-wrapper">
+      <main class="article-roll col span_5_of_8">
+        <article class="article-roll__blog-post">
+          <h5><date datetime="2014-11-04">November 4, 2014</h5>
+          <h2>Article Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <figure>
+            <img src="">
+          </figure>
+          <p><a href="#">Read More...</a></p>
+        </article>
+        <article class="article-roll__blog-post">
+          <h5><date datetime="2014-11-04">November 4, 2014</h5>
+          <h2>Article Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <figure>
+            <img src="">
+          </figure>
+          <p><a href="#">Read More...</a></p>
+        </article>
+        <article class="article-roll__blog-post">
+          <div class="article-roll__blog-post__right-img-text">
+            <h5><date datetime="2014-11-04">November 4, 2014</h5>
+            <h2>Article Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <img class="article-roll__blog-post__right-img-img" src="placeholder_logo.png">
+          <figure>
+            <img src="">
+          </figure>
+          <p><a href="#">Read More...</a></p>
+        </article>
+
+      </main>
+      <aside class="col span_3_of_8 module-roll">
+        <section class="module-roll__item">
+          <h3>What is the Ipsum, here?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section class="module-roll__item">
+          <h3>What is the Ipsum, here?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+    </footer>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
