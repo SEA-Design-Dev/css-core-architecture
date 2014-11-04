@@ -1,4 +1,3 @@
-/* using meyers reset */
 
 /* Box-Sizing */
 
@@ -12,18 +11,17 @@ box-sizing {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 @import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
-
  body {
-  background-color:black;
+  background-color: black;
   font-size: 100%;
   margin: 1em auto 0;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
 }
 h1 {
-  font-size:0.8em;
-  color:#4F628E;
-  margin:3px 0;
+  font-size: 0.8em;
+  color: #4F628E;
+  margin: 3px 0;
 }
 p {
   margin: 0;
@@ -48,8 +46,8 @@ p {
 span {
   position: relative;
 }
-
 /* P */
+
 .char1 {
   margin-left: -.2em;
   z-index: 4;
@@ -57,6 +55,7 @@ span {
   text-shadow: 0.05em 0.05em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* A */
+
 .char2 {
   color: #162955;
   z-index: 3;
@@ -65,6 +64,7 @@ span {
   text-shadow: -0.02em 0.02em 0.2em rgba(10, 10, 10, 0.9);
 }
 /*L*/
+
 .char3 {
   color: #2E4172;
   z-index: 9;
@@ -72,6 +72,7 @@ span {
   text-shadow: -0.05em 0.05em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* L */
+
 .char4 {
   color: #4F628E;
   z-index: 5;
@@ -79,6 +80,7 @@ span {
   text-shadow: 0.02em -0.02em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* E */
+
 .char5 {
   color: #7887AB;
   z-index: 2;
@@ -87,6 +89,7 @@ span {
   text-shadow: -0.05em 0.05em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* T */
+
 .char6 {
   color: #12B2B1;
   z-index: 10;
@@ -95,6 +98,7 @@ span {
   text-shadow: 0em 0em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* T */
+
 .char7 {
   color: silver;
   z-index: 8;
@@ -103,6 +107,7 @@ span {
   text-shadow: -0.05em 0.05em 0.2em rgba(10, 10, 10, 0.9);
 }
 /* E */
+
 .char8 {
   color: white;
   z-index: 6;
@@ -110,60 +115,57 @@ span {
   top: -0.05em;
   text-shadow: 0.02em -0.01em 0.2em rgba(10, 10, 10, 0.9);
 }
-
 .entervalue {
-  color:white;
+  color: white;
 }
-
 .maincontent {
-	position: absolute;
-	height: 150px;
-	width:100%;
-	padding: 10px 50px;
-	z-index: 2;
-  margin-top:1em;
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  padding: 10px 50px;
+  z-index: 2;
+  margin-top: 1em;
 }
 .inputtext {
-  margin-left:39%;
-  display:inline;
+  margin-left: 39%;
+  display: inline;
 }
-
-.maincontent input[type=text]{
-	width: 350px;
-	height: 50px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 1.4em;
-	font-weight: 400;
-	padding: 4px;
+.maincontent input[type=text] {
+  width: 350px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 4px;
   text-align: center;
-  -webkit-font-smoothing:subpixel-antialiased;
-
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-transform: uppercase;
 }
 .container {
-  color:#fff;
-  padding-left:15%;
-  margin-top:2em;
+  color: #fff;
+  padding-left: 15%;
+  margin-top: 2em;
   font-family: 'Exo', sans-serif;
- -webkit-font-smoothing:subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   font-weight: 100;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 .output {
-  width:70%;
-  padding:1px;
+  width: 70%;
+  padding: 1px;
 }
 .swatch {
-  height:100px;
-  width:100px;
-  display:inline-block;
-  cursor:pointer;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
 }
 .swatch span {
-  font-size:11px;
-  text-shadow:1px 1px 2px black;
-  opacity:0.5;
+  font-size: 11px;
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.5;
 }
