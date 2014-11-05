@@ -2,8 +2,6 @@
 /* Box-Sizing */
 
 box-sizing {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* Web Font */
@@ -17,6 +15,7 @@ box-sizing {
   margin: 1em auto 0;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 700;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 h1 {
   font-size: 0.8em;
@@ -33,7 +32,31 @@ p {
   float: left;
   display: inline;
   clear: both;
-  /*  box-shadow: 0em 0em 5em rgba(10,10,10,0.7); */
+}
+input[type=text]{
+  width: 350px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 4px;
+  text-align: center;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-transform: uppercase;
+}
+main {
+  font-family: 'Exo', sans-serif;
+  color: #fff;
+}
+.container {
+  padding-left: 15%;
+  margin-top: 2em;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 .stack {
   text-transform: uppercase;
@@ -128,32 +151,7 @@ span {
 }
 .inputtext {
   margin-left: 39%;
-  display: inline;
   color:white;
-}
-.maincontent input[type=text] {
-  width: 350px;
-  height: 50px;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  border-radius: 2px;
-  color: #fff;
-  font-family: 'Exo', sans-serif;
-  font-size: 1.2em;
-  font-weight: 100;
-  padding: 4px;
-  text-align: center;
-  -webkit-font-smoothing: subpixel-antialiased;
-  text-transform: uppercase;
-}
-.container {
-  color: #fff;
-  padding-left: 15%;
-  margin-top: 2em;
-  font-family: 'Exo', sans-serif;
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-weight: 100;
-  text-transform: uppercase;
 }
 .output {
   width: 70%;
@@ -164,10 +162,9 @@ span {
   width:70px;
   display:inline-block;
   cursor:pointer;
-  z-index:1;
 }
 .swatch span {
   font-size: 11px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0.1em 0.1em 0.1em black;
   opacity: 0.5;
 }
