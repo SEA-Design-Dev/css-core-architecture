@@ -1,6 +1,14 @@
+* {
+  -moz-box-sizing:    border-box;   /* Firefox 1, probably can drop this */
+  -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+  box-sizing: border-box;   /* Everything else */
+}
+
 body{
   font-size: 1em;
+
 }
+
 
 /* nav */
 
@@ -57,7 +65,7 @@ width:100%;
 text-align:center;
 }
 
-.program__header{
+.dept__header{
   text-align: center;
   margin:3% 0;
   text-transform: uppercase;
@@ -71,8 +79,6 @@ text-align:center;
   width:100%;
   display: inline-block;
   /*margin-right:10px;*/
-  }
-
 }
 
 .deptOne__header{
@@ -90,7 +96,6 @@ text-align:center;
   color:white;
   line-height: 1em;
 }
-
 
 .deptTwo{
   padding:3%;
@@ -122,7 +127,6 @@ text-align:center;
   display: inline-block;
 }
 
-
 .deptThree__header{
   color:white;
   font-size:1.1em;
@@ -138,8 +142,6 @@ text-align:center;
   color:white;
   line-height: 1em;
 }
-
-
 
 .blue{
   background-color: SkyBlue;
@@ -221,12 +223,6 @@ text-align:center;
   display: inline-block;
  padding:1%;
 }
-
-
-
-
-
-
 
 /*  GRIDS   ============================================================================= */
 
