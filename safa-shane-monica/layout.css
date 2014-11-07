@@ -65,6 +65,7 @@ img {
 	width: 100%;
 	margin: 10px auto;
 	position: relative;
+	background-color: #b6b6b6;
 }
 
 .widget .panel {
@@ -84,32 +85,17 @@ img {
 
 }
 
-article {
+section {
 	position: relative;
 	width: 100%;
-	background-color: #b6b6b6;
 }
 
-.btn {
+button {
 	width: 120px;
 	height: 30px;
 	text-align: center;
 	margin: 5px auto 5px auto;
 	border: 1px solid gray;
-	background-color: blue;
-	color: white;
-}
-
-.media {
-	margin: 0 auto;
-}
-
-.btn--link {
-	width: 120px;
-	height: 30px;
-	text-align: center;
-	border: 1px solid gray;
-	margin: 5px auto 5px auto;
 	background-color: blue;
 	color: white;
 }
