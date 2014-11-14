@@ -1,0 +1,78 @@
+body {
+  font-family: 'Bubbler One', sans-serif;
+  background-color: #fff;
+  color: rgb(84, 89, 70);
+  font-size: 100%;
+}
+#googleMap{
+  height:176px;
+  width:220px;
+}
+.buildingBlock {
+  display: block;
+  margin: 0;
+  padding: 2% 15% 2% 15%;
+}
+
+.buildingBlock--color {
+  background-color: rgb(209, 213, 192);
+}
+
+.indexFigureHero img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.8em;
+  margin: 3% auto 2% auto;
+  color: rgb(168, 172, 138);
+}
+
+h2, h3 {
+  text-align: center;
+  font-size: 1.6em;
+  margin: 0.5em auto 0.3em auto;
+}
+
+nav ul {
+  margin: 4% auto 1% auto;
+  text-align: center;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0% 3%;
+  text-align: center;
+}
+
+nav li a, h3 a {
+  text-decoration: none;
+  color: rgb(84, 89, 70);
+}
+
+a:hover {
+  color: #93315a;
+}
+
+.preview {
+  display: inline-block;
+  position: relative;
+  margin: 3%;
+  width: 220px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.preview__figure-image {
+  width: 220px;
+  margin: 0% auto 10% auto;
+}
+
+footer {
+  text-align: center;
+}
