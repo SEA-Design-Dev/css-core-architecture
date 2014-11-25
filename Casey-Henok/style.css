@@ -20,8 +20,6 @@ body {
   text-align: center;
   font-size: 54px;
   background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .title {
